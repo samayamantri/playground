@@ -1,0 +1,244 @@
+<svg viewBox="0 0 800 550" xmlns="http://www.w3.org/2000/svg">
+  <!-- White Background -->
+  <rect width="800" height="550" fill="white"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">AI First Transformation Roadmap</text>
+  
+  <!-- Definitions for gradients - Darkening from left to right -->
+  <!-- Lightest blue gradient -->
+  <linearGradient id="lightestBlueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#93c5fd" />
+    <stop offset="100%" stop-color="#bfdbfe" />
+  </linearGradient>
+  
+  <!-- Light blue gradient -->
+  <linearGradient id="lightBlueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#60a5fa" />
+    <stop offset="100%" stop-color="#93c5fd" />
+  </linearGradient>
+  
+  <!-- Medium blue gradient -->
+  <linearGradient id="mediumBlueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#3b82f6" />
+    <stop offset="100%" stop-color="#60a5fa" />
+  </linearGradient>
+  
+  <!-- Dark blue gradient -->
+  <linearGradient id="darkBlueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#1e40af" />
+    <stop offset="100%" stop-color="#3b82f6" />
+  </linearGradient>
+  
+  <!-- Background gradients -->
+  <linearGradient id="lightestBlueBg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#eff6ff" />
+    <stop offset="100%" stop-color="#f8fafc" />
+  </linearGradient>
+  
+  <linearGradient id="lightBlueBg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#dbeafe" />
+    <stop offset="100%" stop-color="#eff6ff" />
+  </linearGradient>
+  
+  <linearGradient id="mediumBlueBg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#bfdbfe" />
+    <stop offset="100%" stop-color="#dbeafe" />
+  </linearGradient>
+  
+  <linearGradient id="darkBlueBg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#93c5fd" />
+    <stop offset="100%" stop-color="#bfdbfe" />
+  </linearGradient>
+  
+  <!-- Goal box at top center -->
+  <rect x="280" y="70" width="240" height="60" rx="8" fill="#1e3a8a"/>
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">AI FIRST TRANSFORMATION</text>
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">ENTERPRISE DESTINATION</text>
+  
+  <!-- Main Flow Arrow -->
+  <path d="M100,200 H700" stroke="#dbeafe" stroke-width="8" fill="none"/>
+  
+  <!-- Step Arrows -->
+  <polygon points="245,200 260,190 260,210" fill="#3b82f6"/>
+  <polygon points="395,200 410,190 410,210" fill="#3b82f6"/>
+  <polygon points="545,200 560,190 560,210" fill="#3b82f6"/>
+  <polygon points="685,200 700,190 700,210" fill="#3b82f6"/>
+  
+  <!-- Step 1: Data Platform -->
+  <circle cx="100" cy="200" r="30" fill="url(#lightestBlueGradient)"/>
+  <text x="100" y="205" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#3b82f6">1</text>
+  
+  <rect x="25" y="240" width="150" height="100" rx="8" fill="white" stroke="#dbeafe" stroke-width="2"/>
+  <rect x="25" y="240" width="150" height="30" rx="8" fill="url(#lightestBlueGradient)"/>
+  <text x="100" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#3b82f6">Data Platform</text>
+  <text x="100" y="285" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#60a5fa">Operational</text>
+  
+  <rect x="35" y="300" width="130" height="30" rx="5" fill="url(#lightestBlueBg)"/>
+  <text x="100" y="315" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#3b82f6">Quality Data</text>
+  <text x="100" y="327" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#3b82f6">Consolidation</text>
+  
+  <!-- Step 2: Customer Data Platform -->
+  <circle cx="250" cy="200" r="30" fill="url(#lightBlueGradient)"/>
+  <text x="250" y="205" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#3b82f6">2</text>
+  
+  <rect x="175" y="240" width="150" height="100" rx="8" fill="white" stroke="#bfdbfe" stroke-width="2"/>
+  <rect x="175" y="240" width="150" height="30" rx="8" fill="url(#lightBlueGradient)"/>
+  <text x="250" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#3b82f6">Customer Data</text>
+  <text x="250" y="285" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#3b82f6">Transactional</text>
+  
+  <rect x="185" y="300" width="130" height="30" rx="5" fill="url(#lightBlueBg)"/>
+  <text x="250" y="315" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#3b82f6">Customer</text>
+  <text x="250" y="327" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#3b82f6">Intelligence</text>
+  
+  <!-- Step 3: Partnerships -->
+  <circle cx="400" cy="200" r="30" fill="url(#mediumBlueGradient)"/>
+  <text x="400" y="205" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">3</text>
+  
+  <rect x="325" y="240" width="150" height="100" rx="8" fill="white" stroke="#93c5fd" stroke-width="2"/>
+  <rect x="325" y="240" width="150" height="30" rx="8" fill="url(#mediumBlueGradient)"/>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Partnerships</text>
+  <text x="400" y="285" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#3b82f6">Transformational</text>
+  
+  <rect x="335" y="300" width="130" height="30" rx="5" fill="url(#mediumBlueBg)"/>
+  <text x="400" y="315" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#3b82f6">Strategic</text>
+  <text x="400" y="327" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#3b82f6">Alliances</text>
+  
+  <!-- Step 4: AI Factory -->
+  <circle cx="550" cy="200" r="30" fill="url(#darkBlueGradient)"/>
+  <text x="550" y="205" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">4</text>
+  
+  <rect x="475" y="240" width="150" height="100" rx="8" fill="white" stroke="#bfdbfe" stroke-width="2"/>
+  <rect x="475" y="240" width="150" height="30" rx="8" fill="url(#darkBlueGradient)"/>
+  <text x="550" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">AI Factory</text>
+  <text x="550" y="285" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#3b82f6">Transformational</text>
+  
+  <rect x="485" y="300" width="130" height="30" rx="5" fill="url(#darkBlueBg)"/>
+  <text x="550" y="315" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#3b82f6">Enterprise</text>
+  <text x="550" y="327" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#3b82f6">Innovation</text>
+  
+  <!-- Results Box -->
+  <circle cx="700" cy="200" r="30" fill="#1e3a8a"/>
+  <text x="700" y="205" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">✓</text>
+  
+  <rect x="625" y="240" width="150" height="100" rx="8" fill="white" stroke="#1e3a8a" stroke-width="2"/>
+  <rect x="625" y="240" width="150" height="30" rx="8" fill="#1e3a8a"/>
+  <text x="700" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">AI First Enterprise</text>
+  
+  <rect x="635" y="280" width="130" height="50" rx="5" fill="#eff6ff"/>
+  <text x="700" y="300" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e40af">Intelligent</text>
+  <text x="700" y="315" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e40af">Data-Driven</text>
+  <text x="700" y="330" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1e40af">Organization</text>
+  
+  <!-- Implementation Boxes - All Same Size with Proper Spacing -->
+  <!-- Step 1 Implementation -->
+  <rect x="25" y="350" width="150" height="150" rx="8" fill="white" stroke="#dbeafe" stroke-width="2"/>
+  <rect x="25" y="350" width="150" height="25" rx="8" fill="url(#lightestBlueGradient)"/>
+  <text x="100" y="368" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#3b82f6">Implementation</text>
+  
+  <rect x="35" y="380" width="130" height="22" rx="5" fill="url(#lightestBlueBg)"/>
+  <text x="100" y="395" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Personal AI Assistants</text>
+  
+  <rect x="35" y="405" width="130" height="22" rx="5" fill="url(#lightestBlueBg)"/>
+  <text x="100" y="420" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">KPI Dashboards</text>
+  
+  <rect x="35" y="430" width="130" height="22" rx="5" fill="url(#lightestBlueBg)"/>
+  <text x="100" y="445" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Trusted Data Sources</text>
+  
+  <rect x="35" y="455" width="130" height="22" rx="5" fill="url(#lightestBlueBg)"/>
+  <text x="100" y="470" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Data Ingestion</text>
+  
+  <rect x="35" y="480" width="130" height="18" rx="5" fill="url(#lightestBlueBg)"/>
+  <text x="100" y="492" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#3b82f6">Establish data-driven ops</text>
+  
+  <!-- Step 2 Implementation -->
+  <rect x="175" y="350" width="150" height="150" rx="8" fill="white" stroke="#bfdbfe" stroke-width="2"/>
+  <rect x="175" y="350" width="150" height="25" rx="8" fill="url(#lightBlueGradient)"/>
+  <text x="250" y="368" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#3b82f6">Implementation</text>
+  
+  <rect x="185" y="380" width="130" height="22" rx="5" fill="url(#lightBlueBg)"/>
+  <text x="250" y="395" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Prism AI Assistant</text>
+  
+  <rect x="185" y="405" width="130" height="22" rx="5" fill="url(#lightBlueBg)"/>
+  <text x="250" y="420" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Journey Orchestration</text>
+  
+  <rect x="185" y="430" width="130" height="22" rx="5" fill="url(#lightBlueBg)"/>
+  <text x="250" y="445" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Omni-Channel Exp.</text>
+  
+  <rect x="185" y="455" width="130" height="22" rx="5" fill="url(#lightBlueBg)"/>
+  <text x="250" y="470" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Predictive Analytics</text>
+  
+  <rect x="185" y="480" width="130" height="18" rx="5" fill="url(#lightBlueBg)"/>
+  <text x="250" y="492" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#3b82f6">Enhance customer insights</text>
+  
+  <!-- Step 3 Implementation -->
+  <rect x="325" y="350" width="150" height="150" rx="8" fill="white" stroke="#93c5fd" stroke-width="2"/>
+  <rect x="325" y="350" width="150" height="25" rx="8" fill="url(#mediumBlueGradient)"/>
+  <text x="400" y="368" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Implementation</text>
+  
+  <rect x="335" y="380" width="130" height="22" rx="5" fill="url(#mediumBlueBg)"/>
+  <text x="400" y="395" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">AWS & Cloud</text>
+  
+  <rect x="335" y="405" width="130" height="22" rx="5" fill="url(#mediumBlueBg)"/>
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Tech Integrations</text>
+  
+  <rect x="335" y="430" width="130" height="22" rx="5" fill="url(#mediumBlueBg)"/>
+  <text x="400" y="445" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Implementation</text>
+  
+  <rect x="335" y="455" width="130" height="22" rx="5" fill="url(#mediumBlueBg)"/>
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Hardware Accel.</text>
+  
+  <rect x="335" y="480" width="130" height="18" rx="5" fill="url(#mediumBlueBg)"/>
+  <text x="400" y="492" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#3b82f6">Accelerate with partners</text>
+  
+  <!-- Step 4 Implementation -->
+  <rect x="475" y="350" width="150" height="150" rx="8" fill="white" stroke="#bfdbfe" stroke-width="2"/>
+  <rect x="475" y="350" width="150" height="25" rx="8" fill="url(#darkBlueGradient)"/>
+  <text x="550" y="368" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Implementation</text>
+  
+  <rect x="485" y="380" width="130" height="22" rx="5" fill="url(#darkBlueBg)"/>
+  <text x="550" y="395" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Cross-Functional AI</text>
+  
+  <rect x="485" y="405" width="130" height="22" rx="5" fill="url(#darkBlueBg)"/>
+  <text x="550" y="420" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Solution Factory</text>
+  
+  <rect x="485" y="430" width="130" height="22" rx="5" fill="url(#darkBlueBg)"/>
+  <text x="550" y="445" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Test-Learn-Refine</text>
+  
+  <rect x="485" y="455" width="130" height="22" rx="5" fill="url(#darkBlueBg)"/>
+  <text x="550" y="470" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Rapid Scaling</text>
+  
+  <rect x="485" y="480" width="130" height="18" rx="5" fill="url(#darkBlueBg)"/>
+  <text x="550" y="492" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#3b82f6">Enable enterprise innovation</text>
+  
+  <!-- Results Implementation -->
+  <rect x="625" y="350" width="150" height="150" rx="8" fill="white" stroke="#1e3a8a" stroke-width="2"/>
+  <rect x="625" y="350" width="150" height="25" rx="8" fill="#1e3a8a"/>
+  <text x="700" y="368" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Outcomes</text>
+  
+  <rect x="635" y="380" width="130" height="22" rx="5" fill="#eff6ff"/>
+  <text x="700" y="395" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e40af">Data-Driven Culture</text>
+  
+  <rect x="635" y="405" width="130" height="22" rx="5" fill="#eff6ff"/>
+  <text x="700" y="420" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e40af">Customer Centricity</text>
+  
+  <rect x="635" y="430" width="130" height="22" rx="5" fill="#eff6ff"/>
+  <text x="700" y="445" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e40af">Ecosystem Growth</text>
+  
+  <rect x="635" y="455" width="130" height="22" rx="5" fill="#eff6ff"/>
+  <text x="700" y="470" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e40af">Enterprise Agility</text>
+  
+  <rect x="635" y="480" width="130" height="18" rx="5" fill="#eff6ff"/>
+  <text x="700" y="492" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#1e40af">AI First Transformation</text>
+  
+  <!-- Step Labels -->
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#3b82f6">STEP 1</text>
+  <text x="250" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#3b82f6">STEP 2</text>
+  <text x="400" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#3b82f6">STEP 3</text>
+  <text x="550" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#3b82f6">STEP 4</text>
+  <text x="700" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e40af">GOAL</text>
+  
+  <!-- Bottom Tagline -->
+  <rect x="25" y="510" width="750" height="30" rx="8" fill="#1e3a8a"/>
+  <text x="400" y="530" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">FROM OPERATIONAL FOUNDATION TO AI FIRST ENTERPRISE</text>
+</svg>
