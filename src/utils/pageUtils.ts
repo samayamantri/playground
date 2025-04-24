@@ -3,6 +3,11 @@ export const getAvailablePages = () => {
   return [
     'migration-summary',
     'nuskin-categories-fixed',
-    'ai-nuintelligence'
+    'ai-nuintelligence',
+    'nu-skin-eu-analysis',
+    'nu-skin-latam-analysis',
+    'nu-skin-regional-comparison',
+    'nu-skin-japan-visual-summary',
+    'roadmap-kpi-react'
   ];
 }; 
