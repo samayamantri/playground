@@ -9,6 +9,7 @@ import NuSkinLatamAnalysis from './nu-skin-latam-analysis';
 import NuSkinRegionalComparison from './nu-skin-regional-comparison';
 import NuSkinJapanVisualSummary from './nu-skin-japan-visual-summary';
 import RoadmapKPI from './roadmap-kpi-react';
+import NuSkinNorthAmericaAnalysis from './nu-skin-north-america-analysis';
 import Layout from './components/Layout';
 import './styles.css';
 
@@ -25,6 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route path="/nu-skin-regional-comparison" element={<NuSkinRegionalComparison />} />
           <Route path="/nu-skin-japan-visual-summary" element={<NuSkinJapanVisualSummary />} />
           <Route path="/roadmap-kpi-react" element={<RoadmapKPI />} />
+          <Route path="/nu-skin-north-america-analysis" element={<NuSkinNorthAmericaAnalysis />} />
           <Route path="/" element={<Navigate to="/migration-summary" replace />} />
         </Routes>
       </Layout>

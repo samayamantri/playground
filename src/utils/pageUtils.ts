@@ -8,6 +8,7 @@ export const getAvailablePages = () => {
     'nu-skin-latam-analysis',
     'nu-skin-regional-comparison',
     'nu-skin-japan-visual-summary',
-    'roadmap-kpi-react'
+    'roadmap-kpi-react',
+    'nu-skin-north-america-analysis'
   ];
 }; 
